@@ -1,0 +1,33 @@
+Data Bootcamp
+-------------
+
+OVERVIEW:
+Dimensional Data Modelling
+Fact Data Modelling
+Applying Analytical Patterns
+	- Growth accounting (Facebook tracks user)
+	- Advanced SQL (Windows functions, deeper SQL concepts)
+KPIs and Experimentation
+	- Thinking like a product manager
+Data Visualisation and Impact
+	- Pushback
+Unit testing PySpark Pipelines
+	- Cheespa library
+Data pipeline Maintenance
+	- Maintain pipelines at scale
+Apache Spark Fundamentals
+Data Quality Patterns (DQP)
+	- Astronomer in the cloud
+	- Write, audit, publish DQP
+Real-time pipelines with Flink and Kafka
+	- Ensure Docker is setup
+
+Structure:
+Pre-recorded lessons 1/2 a day
+Each module contains 2 lectures
+Each lecture is followed by a lab
+Labs found on https://github.com/DataExpert.io/data-engineer-handbook
+
+Submitting homework:
+Don't submit extra work
+Just zip the work for the homework files that are asked and required of you 

@@ -1,0 +1,36 @@
+Dimensional Data Modelling
+
+Struct (table within a table) + Array (list in a column)
+
+Building more compact datasets
+
+What is a dimension:
+- Attributes of an entity
+	- Your name, birthday, city you live in etc.
+- Identifier dimensions- uniquely identify something
+- Attributes- aren't critical to the identification of that entity but help with other forms of analysis
+- 2 types of dimensions:
+	- Slowly-changing
+		- Favourite food (changes over time)
+	- Fixed
+		- Birthday (can't change)
+		- A phone's manufacturer (it was made by Apple, Samsung etc)
+Knowing whether a dimension is fixed or slowly-changing. Slowly-changing are more annoying to deal with.
+
+6 topics for this lesson:
+Knowing your data consumer
+OLTP vs OLAP data modelling
+Cumulative Table Design
+The compactness vs usability tradeoff
+Temporal cardinality explosion
+Run-Length encoding compression gotchas
+
+Knowing your custiner
+- Data analysts / data scientist
+	- Should be easy to query. Not many complex datatypes
+- Other data engineers
+	- Should be compact and probably harder to query. Nested types are ok
+- ML Models
+	- Depends on the model and how its trained
+- Customer
+	- Should be very easy to interpret chart
